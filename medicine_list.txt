@@ -1,7 +1,7 @@
 medicine_list 
 
 황채현(2516842)
-- 레바킴정
-- 레이디원
-- 쎄레텍정
-- 트리멜라
+- 레바킴정 (rebakim)
+- 레이디원 (LadyOne)
+- 쎄레텍정 (Celetic)
+- 트리멜라 (trimela)
