@@ -1,7 +1,9 @@
-medicine_list 
+medicine_list
 
-황채현(2516842)
-- 레바킴정 (rebakim)
-- 레이디원 (LadyOne)
-- 쎄레텍정 (Celetic)
-- 트리멜라 (trimela)
+조효원(2512455)
+
+-아르텍정(artec)
+-비오펜(viopen)
+-에이스펜(acepen)
+-대웅세파록실캡슐500mg(cefaroxil)
+-펜렉스정60mg(penlex)
