@@ -1,0 +1,54 @@
+{
+  "Celetec": {
+    "item_name": "쎄레텍정",
+    "item_seq": "202302403"
+  },
+  "Erdo Cough": {
+    "item_name": "엘도코프캡슐",
+    "item_seq": "200403710"
+  },
+  "Ilsung Claruthromycin": {
+    "item_name": "일성클래리트로마이신정",
+    "item_seq": "201603545"
+  },
+  "LadyOne": {
+    "item_name": "레이디원연질캡슐",
+    "item_seq": "201801498"
+  },
+  "Mephsol": {
+    "item_name": "메프솔정4mg",
+    "item_seq": "201601608"
+  },
+  "Otillen": {
+    "item_name": "오티렌정",
+    "item_seq": "201206163"
+  },
+  "acepen": {
+    "item_name": "에이스펜연질캡슐",
+    "item_seq": "200403671"
+  },
+  "artec": {
+    "item_name": "아르텍연질캡슐10mg",
+    "item_seq": "200904666"
+  },
+  "cefaroxil": {
+    "item_name": "대웅세파록실캡슐",
+    "item_seq": "198100123"
+  },
+  "penlex": {
+    "item_name": "펜렉스정",
+    "item_seq": "200401891"
+  },
+  "rebakim": {
+    "item_name": "레바킴정",
+    "item_seq": "201404479"
+  },
+  "trimela": {
+    "item_name": "트리멜라정",
+    "item_seq": "202400453"
+  },
+  "viopen": {
+    "item_name": "바이펜연질캡슐300mg",
+    "item_seq": "201802592"
+  }
+}
