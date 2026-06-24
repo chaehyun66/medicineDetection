@@ -16,7 +16,6 @@ import urllib.parse
 import json
 import os
 import tempfile
-from roboflow import Roboflow
 from pathlib import Path
 from dotenv import load_dotenv
 
@@ -319,7 +318,16 @@ async def detect_pill(file: UploadFile = File(...)):
     if not ROBOFLOW_API_KEY or ROBOFLOW_API_KEY == "YOUR_ROBOFLOW_KEY":
         raise HTTPException(status_code=500, detail="서버에 Roboflow API 키가 설정되지 않았습니다. .env 파일을 확인해주세요.")
 
+    try:
+        from roboflow import Roboflow
+    except ImportError:
+        raise HTTPException(
+            status_code=503,
+            detail="현재 서버에는 Roboflow 탐지 기능이 설치되지 않았습니다."
+        )
+
     temp_path = ""
+    
     try:
         # 업로드된 이미지를 임시 파일로 저장 (Roboflow SDK 요구사항)
         with tempfile.NamedTemporaryFile(delete=False, suffix=".jpg") as temp_file:
